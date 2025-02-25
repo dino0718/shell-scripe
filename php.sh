@@ -1,6 +1,6 @@
 sudo  apt install apache2 -y &> /dev/null
 echo "apache2  installed"
-sudo apt install php php-xml pjp-json -y &> /dev/null 
+sudo apt install php php-xml php-json -y &> /dev/null 
 echo "php installed"
 wget https://github.com/phpsysinfo/phpsysinfo/archive/refs/tags/v3.4.4.zip &> /dev/null
 unzip v3.4.4.zip &> /dev/null
